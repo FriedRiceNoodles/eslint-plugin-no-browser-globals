@@ -41,13 +41,11 @@ This plugin **ONLY** works in `jsx/tsx` files.
 
 Use browser globals directly is not allowed. But you can use them inside a hook like `useEffect` or `useLayoutEffect`.
 
-````js
-
 ### Not Allowed
 
 ```js
 const foo = location.href;
-````
+```
 
 ### Allowed
 
