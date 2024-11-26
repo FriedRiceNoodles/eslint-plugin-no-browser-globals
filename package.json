@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-no-browser-globals",
+  "version": "1.0.0",
+  "description": "An ESLint plugin that disallows the use of browser globals. It is useful when you want to make sure that your code is not using browser globals, which can cause issues when running in a non-browser environment.",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "eslint-plugin",
+    "SSR",
+    "Server Side Rendering",
+    "jsx",
+    "tsx",
+    "react"
+  ],
+  "author": "炒米粉 <hjw741@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "globals": "^15.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
+  }
+}
