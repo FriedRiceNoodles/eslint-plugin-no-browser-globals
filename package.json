@@ -19,6 +19,11 @@
   ],
   "author": "炒米粉 <hjw741@foxmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/FriedRiceNoodles/eslint-plugin-no-browser-globals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FriedRiceNoodles/eslint-plugin-no-browser-globals"
+  },
   "dependencies": {
     "globals": "^15.12.0"
   },

@@ -2,6 +2,8 @@
 
 An ESLint plugin that disallows the use of browser globals. It is useful when you want to make sure that your code is not using browser globals, which can cause issues when running in a non-browser environment.
 
+![NPM Version](https://img.shields.io/npm/v/eslint-plugin-no-browser-globals)
+
 ## Installation
 
 ```bash
